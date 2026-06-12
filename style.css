@@ -1,0 +1,154 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #121212; /* Preto fosco de fundo */
+    color: #FFFFFF; /* Texto branco principal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+/* Cabeçalho */
+header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Conteúdo Principal (Container) */
+main {
+    background-color: #1E1E1E; /* Cinza escuro para destacar o conteúdo */
+    max-width: 700px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); /* Sombra suave */
+}
+
+/* Seções */
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    border-left: 4px solid #FFFFFF; /* Detalhe em linha branca na lateral */
+    padding-left: 10px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333333; /* Linha divisória cinza sutil */
+    margin: 20px 0;
+}
+
+p {
+    color: #CCCCCC; /* Cinza claro para leitura confortável */
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+/* Lista de Tecnologias */
+ul {
+    list-style: none; /* Remove as bolinhas padrão */
+}
+
+ul li {
+    background-color: #2A2A2A; /* Bloco cinza para cada item */
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-radius: 6px;
+    color: #E0E0E0;
+    border-left: 3px solid #666666;
+}
+
+ul li strong {
+    color: #FFFFFF;
+}
+
+/* Área de Projetos (Botões) */
+.links-projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.projeto-item {
+    display: block;
+    background-color: #FFFFFF; /* Botão Branco */
+    color: #121212; /* Texto Preto */
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito ao passar o mouse nos projetos */
+.projeto-item:hover {
+    background-color: #CCCCCC; /* Transiciona para cinza */
+    transform: translateY(-2px); /* Efeito de subir de leve */
+}
+
+/* Rodapé (Contato) */
+footer {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 700px;
+    background-color: #1E1E1E;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.contato-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+footer a:hover {
+    border-color: #FFFFFF; /* Linha branca embaixo ao passar o mouse */
+}
+
+footer span {
+    color: #666666;
+}
+
+.email {
+    color: #CCCCCC;
+}
+
+.email strong {
+    color: #FFFFFF;
+}
